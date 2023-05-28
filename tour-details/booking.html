@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Tour - Nha Trang Nature Elite</title>
+    <link rel="stylesheet" href="./assets/css/booking.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link as="style" onload="this.onload=null;this.rel=&quot;stylesheet&quot;"
+        href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto+Slab:400,700&amp;subset=vietnamese&amp;display=swap"
+        rel="stylesheet" type="text/css">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto+Slab:400,700&amp;subset=vietnamese&display=swap" />
+    </noscript>
+    <meta property="og:locale" content="vi_VN">
+</head>
+
+<body>
+    <section class="main">
+        <div class="checkout">
+            <div class="container">
+                <h1>Đặt tour</h1>
+                <h2 class="chekout-name">
+                    Tên dịch vụ
+                    <a href="#" class="pink-color">Tour 3 đảo Nha Trang (Giá Tour tham quan 3 đảo Vip)</a>
+                </h2>
+                <form method="post" action="/checkout">
+                    <input type="hidden" id="PriceId" name="PriceId" value="15" />
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="box">
+                                <h3 class="checkout-title">Thông tin của bạn</h3>
+                                <p>Vui lòng điền đầy đủ thông tin vào trường bắt buộc (
+                                    <span class="pink-color">*</span>
+                                    )
+                                </p>
+                                <div class="text-danger validation-summary-valid">
+                                    <ul>
+                                        <li style="display: none"></li>
+                                    </ul>
+                                </div>
+                                <div class="form-row">
+                                    <div class="from-row col-12">
+                                        <label for="Name">
+                                            Tên đầy đủ
+                                        </label>
+                                        <input class="form-control" type="text" name="Name" value="" />
+                                        <span class="text-danger field-validation-valid"></span>
+                                    </div>
+                                </div>
+
+                                <div class="from-row">
+                                    <div class="form-group col-md-6">
+                                        <label for="Email">Email</label>
+                                        <input type="text" class="form-control" name="Email" value="">
+                                        <span class="text-danger field-validation-valid"></span>
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="PhoneNumber">Số điện thoại</label>
+                                        <input type="text" class="form-control" name="PhoneNumber" value="">
+                                        <span class="text-danger field-validation-valid"></span>
+                                    </div>
+                                </div>
+
+                                <div class="from-row">
+                                    <div class="from-froup col-6 col-md-3">
+                                        <label for="AdultAmount">
+                                            Số người lớn
+                                            <span class="pink-color">*</span>
+                                        </label>
+                                        <div class="input-group bootrap-touchspin boot strap-touchspin-injected">
+                                            <span class="input-group-btn input-group-prepend">
+                                                <button class="btn btn-normal bootstrap-touchspin-down"
+                                                    type="button">-</button>
+                                            </span>
+                                            <input class="form-control people-count" id="adults" value="1" type="number"
+                                                name="AdultAmount" />
+                                            <span class="input-group-btn input-group-append">
+                                                <button class="btn btn-normal bootstrap-touchspin-up"
+                                                    type="button">+</button>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="from-froup col-6 col-md-3">
+                                        <label for="ChildAmount">Số Trẻ em
+                                            <span class="pink-color">*</span>
+                                        </label>
+                                        <div class="input-group bootrap-touchspin boot strap-touchspin-injected">
+                                            <span class="input-group-btn input-group-prepend">
+                                                <button class="btn btn-normal bootstrap-touchspin-down"
+                                                    type="button">-</button>
+                                            </span>
+                                            <input class="form-control people-count" id="childs" value="0" type="number"
+                                                name="ChildAmount" />
+                                            <span class="input-group-btn input-group-append">
+                                                <button class="btn btn-normal bootstrap-touchspin-up"
+                                                    type="button">+</button>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="from-froup col-12 col-md-6">
+                                        <label for="StartDate">Ngày đi
+                                            <span class="pink-color">*</span>
+                                        </label>
+                                        <input class="form-control" id="date-go" type="text" name="StartDate"
+                                            value="" />
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group-col">
+                                        <label>Thanh toán bằng</label>
+                                        <select class="form-control" id="payment_type" name="PaymentType">
+                                            <option value="Cash" selected="">Thanh toán tiền mặt</option>
+                                            <option value="DomesticBank">Thẻ ATM nội địa | Domestic Bank</option>
+                                            <option value="InternationalCard">Visa/Master Card</option>
+                                            <option value="VTCPay">VTC Pay</option>
+                                            <option value="MoMo">MoMo (Cần liên kết ví với ngân hàng)</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group col">
+                                        <label for="AdditionField">Yêu cầu thêm (không bắt buộc)</label>
+                                        <textarea class="form-control" rows="6" id="AdditionField" maxlength="500"
+                                            name="AdditionField"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4">
+                            <div class="box">
+                                <h3 class="checkout-title">Thanh toán</h3>
+                                <div class="price-group">
+                                    <p class="price-name">
+                                        <i class="fas fa-male"></i>
+                                        Người lớn:
+                                    </p>
+                                    <p class="price-value" id="adults-price">650.000 đ</p>
+                                </div>
+                                <div class="price-group">
+                                    <p class="price-name"><i class="fas fa-child"></i> Trẻ em:</p>
+                                    <p class="price-value" id="childs-price">450.000 đ</p>
+                                </div>
+                                <div class="price-group">
+                                    <p class="price-name"><i class="fas fa-users"></i> Số lượng:</p>
+                                    <p class="price-value" id="amount">
+                                        <span class="adults-count">1 người lớn</span>
+                                        <span class="childs-count">0 trẻ em</span>
+                                    </p>
+                                </div>
+                                <div class="price-group">
+                                    <p class="price-name"><i class="fas fa-hand-holding-usd"></i> Phí giao dịch:</p>
+                                    <p class="price-value" id="transaction-price">0 đ</p>
+                                </div>
+                                <div class="price-group">
+                                    <p class="price-name"><i class="fas fa-dollar-sign"></i> Tổng thanh toán:</p>
+                                    <p class="price-value" id="total-price">650.000 đ</p>
+                                </div>
+                                <button class="btn btn-pink btn-radius btn-checkout">Đặt Tour</button>
+                                <input type="hidden" value="" id="total-price-value" name="TotalPriceValue">
+                                <hr>
+                                <div class="btn-content text-center">
+                                    <p><i class="fas fa-phone pink-color"></i> Hỗ trợ Tư Vấn + Đặt Tour:</p>
+                                    <a class="btn btn-radius btn-pink btn-booking mb10" href="#">0903.802.222</a>
+                                    <a class="btn btn-radius btn-pink btn-booking mb10" href="#">0903.802.234</a>
+                                    <p><i class="fas fa-info-circle pink-color"></i>
+                                        <a target="_blank" href="/huong-dan-thanh-toan">Thanh toán bằng chuyển khoản
+                                            ngân hàng tại đây</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-image: url(https://nhatrangbooking.com.vn/images/theme1/bg-footer.jpg)" ;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="logo-footer">
+                        <a href="/">
+                            <img src="" alt="NhaTrangBooking" width="175" height="58">
+                        </a>
+                    </div>
+
+                    <p class="copyright">© 2019 - 2023 NhaTrangBooking</p>
+
+                    <div class="socials">
+                        <a href="#" class="social" aria-label="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social" aria-label="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social" aria-label="tumblr">
+                            <i class="fab fa-tumblr"></i>
+                        </a>
+                        <a href="#" class="social" aria-label="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <p class="title-col">Chính sách</p>
+                    <ul class="quick-links">
+                        <li>
+                            <a href="#">Điều khoản sử dụng</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a href="#">Đặt cọc Online</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách Hoàn - Hủy Tour</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-5">
+                    <p class="title-col">Liên hệ chúng tôi</p>
+
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-bullhorn"></i>
+                            Quảng cáo - PR: 0123.456.789
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            0123.456.789 - 0123.456.789
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker"></i>
+                            Đại học số 1 Ép Pê Tê
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            info@nhatrangnatureelite.com.vn
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page-links">
+                <ul>
+                    <li>
+                        <a href="#">Về chúng tôi</a>
+                    </li>
+                    <li>
+                        <a href="#">Hướng Dẫn Thanh Toán</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog du lịch</a>
+                    </li>
+                    <li>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                    <li>
+                        <a href="#" title="DMCA.com Protection Status" class="dmca-badge"> <img
+                                src="https://images.dmca.com/Badges/dmca-badge-w100-5x1-03.png?ID=6d73714b-7e38-4e2d-842f-7c9b0307b9e2"
+                                alt="DMCA.com Protection Status" width="100" height="20"></a>
+                        <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"></script>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
