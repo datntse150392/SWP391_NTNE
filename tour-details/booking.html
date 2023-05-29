@@ -20,6 +20,8 @@
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Roboto+Slab:400,700&amp;subset=vietnamese&display=swap" />
     </noscript>
+    <!-- Link FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <meta property="og:locale" content="vi_VN">
 </head>
 
@@ -48,7 +50,7 @@
                                     </ul>
                                 </div>
                                 <div class="form-row">
-                                    <div class="from-row col-12">
+                                    <div class="form-group col-12">
                                         <label for="Name">
                                             Tên đầy đủ
                                         </label>
@@ -57,7 +59,7 @@
                                     </div>
                                 </div>
 
-                                <div class="from-row">
+                                <div class="form-row">
                                     <div class="form-group col-md-6">
                                         <label for="Email">Email</label>
                                         <input type="text" class="form-control" name="Email" value="">
@@ -71,7 +73,7 @@
                                 </div>
 
                                 <div class="form-row">
-                                    <div class="form-froup col-6 col-md-3">
+                                    <div class="form-group col-6 col-md-3">
                                         <label for="AdultAmount">
                                             Số người lớn
                                             <span class="pink-color">*</span>
@@ -90,7 +92,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="form-froup col-6 col-md-3">
+                                    <div class="form-group col-6 col-md-3">
                                         <label for="ChildAmount">Số Trẻ em
                                             <span class="pink-color">*</span>
                                         </label>
@@ -99,7 +101,7 @@
                                                 <button class="btn btn-normal bootstrap-touchspin-down"
                                                     type="button">-</button>
                                             </span>
-                                            <input class="form-control people-count" id="childs" value="0" type="number"
+                                            <input class="form-control people-count" id="childs" value="0" type="number" span=0
                                                 name="ChildAmount" />
                                             <span class="input-group-btn input-group-append">
                                                 <button class="btn btn-normal bootstrap-touchspin-up"
@@ -108,7 +110,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="from-froup col-12 col-md-6">
+                                    <div class="form-group-col col-12 col-md-6">
                                         <label for="StartDate">Ngày đi
                                             <span class="pink-color">*</span>
                                         </label>
@@ -131,7 +133,7 @@
                                 </div>
 
                                 <div class="form-row">
-                                    <div class="form-group col">
+                                    <div style="width: 100%;" class="form-group-col">
                                         <label for="AdditionField">Yêu cầu thêm (không bắt buộc)</label>
                                         <textarea class="form-control" rows="6" id="AdditionField" maxlength="500"
                                             name="AdditionField"></textarea>
@@ -158,8 +160,8 @@
                                 <div class="price-group">
                                     <p class="price-name"><i class="fas fa-users"></i> Số lượng:</p>
                                     <p class="price-value" id="amount">
-                                        <span class="adults-count">1 người lớn</span>
-                                        <span class="childs-count">0 trẻ em</span>
+                                        <span style="font-size: 12px;" class="adults-count">1 người lớn</span>
+                                        <span style="font-size: 12px;" class="childs-count">0 trẻ em</span>
                                     </p>
                                 </div>
                                 <div class="price-group">
@@ -192,4 +194,5 @@
         </div>
     </section>
 </body>
+
 </html>

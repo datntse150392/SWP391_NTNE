@@ -1,6 +1,6 @@
 .body {
     margin: 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -8,19 +8,23 @@
     text-align: left;
     background-color: #fff;
 }
+
 .header {
     height: 60px;
     padding: 0;
     display: block;
     z-index: unset;
 }
+
 .section {
     display: block;
 }
+
 .checkout {
     background-color: #f5f5f5;
     padding: 100px 0;
 }
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -28,57 +32,83 @@
     margin-right: auto;
     margin-left: auto;
 }
-.checkout .box p, .checkout .box span, .checkout .box label, .checkout .box .form-control {
+
+.checkout .box{
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 8px;
+}
+
+/*set full height checkout*/
+.col-lg-4 .box {
+    height: 100%;
+}
+.checkout .box p,
+.checkout .box span,
+.checkout .box label,
+.checkout .box .form-control {
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
 }
+
 .checkout-title {
     font-size: 26px;
     margin-bottom: 30px;
 }
+
 .checkout p {
     margin-bottom: 30px;
 }
+
 .checkout h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 52px;
     margin-bottom: 60px;
 }
+
 .checkout-name {
     font-size: 28px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+
 .checkout .form-group {
     margin-bottom: 25px;
 }
+
 .checkout .form-control {
     min-height: 48px;
     border-radius: 8px;
     color: initial;
 }
+
 .checkout .people-count {
     text-align: center;
 }
+
 .checkout .price-group:nth-child(2) {
     border-top: none;
 }
+
 .checkout .price-group {
     border-top: 1px solid #ececec;
     padding: 16px 0;
 }
+
 .checkout .price-group .price-value {
     text-align: right;
     float: right;
     font-weight: 500;
     padding-left: 15px;
 }
+
 .checkout .price-group p {
     display: inline-block;
     margin: 0;
     line-height: 25px;
 }
+
 .checkout .btn-checkout {
     display: block;
     width: 100%;
@@ -86,7 +116,9 @@
     height: 50px;
     line-height: 50px;
     margin-top: 25px;
+    line-height: 50%;
 }
+
 .checkout .price-group .price-name i {
     margin-right: 5px;
     text-align: center;
@@ -94,14 +126,17 @@
     font-size: 14px;
     opacity: .6;
 }
+
 .h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+
 .h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
+
 .h3 {
     display: block;
     font-size: 1.17em;
@@ -118,31 +153,50 @@
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
 .btn-pink {
     background-color: #e12d36;
     color: white;
 }
+
 .btn {
     border-radius: 30px;
     height: 42px;
     padding: 0 25px;
     line-height: 42px;
 }
+
 .pink-color {
     color: #e12d36;
 }
-.button, input, optgroup, select, textarea {
+
+.button,
+input,
+optgroup,
+select,
+textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
 }
-.button, input {
+
+.button,
+input {
     overflow: visible;
 }
-*, ::after, ::before {
+
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
+
+.chekout-name {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
 .input[type="hidden" i] {
     appearance: none;
     background-color: initial;
@@ -151,10 +205,12 @@
     padding: initial;
     border: initial;
 }
+
 .form {
     display: block;
     margin-top: 0em;
 }
+
 .form-row {
     display: -ms-flexbox;
     display: flex;
@@ -163,17 +219,22 @@
     margin-right: -5px;
     margin-left: -5px;
 }
-.form-row>.col, .form-row>[class*=col-] {
+
+.form-row>.col,
+.form-row>[class*=col-] {
     padding-right: 5px;
     padding-left: 5px;
 }
+
 .label {
     display: inline-block;
     margin-bottom: 0.5rem;
 }
+
 .text-danger {
-    color: #dc3545!important;
+    color: #dc3545 !important;
 }
+
 .input-group {
     position: relative;
     display: -ms-flexbox;
@@ -183,39 +244,72 @@
     -ms-flex-align: stretch;
     align-items: stretch;
     width: 100%;
+    text-align: center;
 }
-.input-group>.custom-select:not(:first-child), .input-group>.form-control:not(:first-child) {
+
+.input-group>.custom-select:not(:first-child),
+.input-group>.form-control:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+
+.input-group>.custom-select:not(:last-child),
+.input-group>.form-control:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
-.input-group-append, .input-group-prepend {
+
+.input-group-btn button{ 
+    height: 100%;
+    border: 1px solid #ced4da;
+}
+.input-group-append,
+.input-group-prepend {
     display: -ms-flexbox;
     display: flex;
 }
-.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control, .input-group>.form-control-plaintext {
+
+.input-group>.custom-file,
+.input-group>.custom-select,
+.input-group>.form-control,
+.input-group>.form-control-plaintext {
     position: relative;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     width: 1%;
     margin-bottom: 0;
+    text-align: center;
 }
 
-.button, select {
+.button,
+select {
     text-transform: none;
 }
+
 .select {
     word-wrap: normal;
 }
+
 .textarea.form-control {
-    height: auto;
+    height: 100%;
 }
+
 .textarea {
+    width: 100%;
     overflow: auto;
     resize: vertical;
+}
+
+.form-row:nth-last-child {
+    min-height: 200px;
+}
+
+.form-group-col:nth-last-child{
+    width: 100%;
+}
+
+.form-row .form-group-col textarea{
+    height: 80%;
 }
 .form-control {
     display: block;
@@ -230,15 +324,25 @@
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-.fa, .fas {
+
+.fa,
+.fas {
     font-weight: 900;
 }
-.fa, .far, .fas {
+
+.fa,
+.far,
+.fas {
     font-family: "Font Awesome 5 Free";
 }
-.fa, .fab, .fal, .far, .fas {
+
+.fa,
+.fab,
+.fal,
+.far,
+.fas {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     display: inline-block;
@@ -247,11 +351,12 @@
     text-rendering: auto;
     line-height: 1;
 }
+
 .mb10 {
     margin-bottom: 10px;
 }
 
-
+/*
 .footer {
     background-image: url(https://d3s2jea7odyu75.cloudfront.net/best-vietnam-nha-trang-beach-tour-asia-vacation-group-1170x658.jpg);
     background-repeat: no-repeat;
@@ -363,3 +468,5 @@
     color: white;
     font-weight: 500;
 }
+
+*/
