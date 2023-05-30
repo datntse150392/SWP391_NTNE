@@ -23,48 +23,54 @@
                 <img src="./assets/image/logo.png" alt="Trang chủ NhaTrangNatureElite" width="220" height="62">
             </a>
         </div>
-        <div class="search-bar">
+        <!-- <div class="search-bar">
             <form method="get" action="">
                 <input type="text" name="" class="form-control" placeholder="Tìm kiếm bất cứ thứ gì bạn muốn..." id="">
                 <i class="fas fa-search"></i>
             </form>
-        </div>
+        </div> -->
+
         <nav class="nav-menu">
             <ul class="main-menu">
                 <li class="menu-item"><a href="#">Giới thiệu</a></li>
                 <li class="menu-item"><a href="#">Tour</a></li>
                 <li class="menu-item"><a href="#">Blogs</a></li>
-                <li class="menu-item"><a href="#">Đăng nhập</a></li>
-                <li class="menu-item"><a href="#">Đăng kí</a></li> 
+                <li class="menu-item"><a href="#">Liên hệ</a></li>
             </ul>
         </nav>
+
+        <div class="action">
+            <button class="login-btn">
+                <a href="#">Đăng nhập</a>
+            </button>
+        </div>
     </header>
     
     <div class="slides">
         <div class="slide-list owl-carousel owl-theme">
             <div class="slide-item">
                 <picture>
-                    <img src="./assets/image/sliders/img_1.1.jpg" alt="slide 1">
+                    <img src="./assets/image/sliders/slide-1.jpg" alt="slide 1">
                 </picture>
             </div>
             <div class="slide-item">
                 <picture>
-                    <img src="./assets/image/sliders/img_2.1.jpg" alt="slide 1">
+                    <img src="./assets/image/sliders/slide-2.jpg" alt="slide 1">
                 </picture>
             </div>
             <div class="slide-item">
                 <picture>
-                    <img src="./assets/image/sliders/img_3.jpg" alt="slide 1">
+                    <img src="./assets/image/sliders/slide-3.jpg" alt="slide 1">
                 </picture>
             </div>
             <div class="slide-item">
                 <picture>
-                    <img src="./assets/image/sliders/img_4.jpg" alt="slide 1">
+                    <img src="./assets/image/sliders/slide-4.jpg" alt="slide 1">
                 </picture>
             </div>
             <div class="slide-item">
                 <picture>
-                    <img src="./assets/image/sliders/img_5.jpg" alt="slide 1">
+                    <img src="./assets/image/sliders/slide-5.jpg" alt="slide 1">
                 </picture>
             </div>
         </div>
@@ -75,59 +81,134 @@
         </div>
     </div>
     <section class="main">
-        <div class="tour-service">
+        <div class="top-tour">
             <div class="container">
                 <h2 class="title">
-                    <span class="pink-color">Dịch vụ</span>
-                    du lịch
+                    <span class="pink-color">Top</span>
+                    tour Nha Trang
                 </h2>
-                <p class="des">Các dịch vụ hấp dẫn tại Nha Trang Nature Elite</p>
-                <div class="row service-list">
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <div class="service-item">
+                <p class="des">Các tour được khách du lịch lựa chọn nhiều nhất</p>
+                <div class="tours">
+                    <div class="tour-list owl-carousel owl-theme">
+                        <div class="tour-item">
                             <figure class="thumb">
-                                <a href="#">
-                                    <img src="./assets/image/services/img1.jpg">
+                                <a class="lazy-container" href="#">
+                                    <img class="lazy" src="./assets/image/img__1.jpg">
                                 </a>
+                                <span class="sale">hot</span>
                             </figure>
-                            <div class="service-name">
+                            <div class="content">
                                 <a href="#">
-                                    <h3>Vé Tắm Bùn Hòn Tằm</h3>
+                                    <h3 class="tour-name">Tour 3 Đảo Nha Trang</h3>
                                 </a>
+                                <div class="place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span class="text">Điểm đến: Cảng Vĩnh Trường, Bãi Tranh, Hòn Tằm, Làng Chài</span>
+                                </div>
+                                <div class="price">
+                                    <p class="old-price">
+                                        <del>700,000 VND</del>
+                                    </p>
+                                    <p class="new-price">
+                                        600,000 VND <span>/người lớn</span>
+                                    </p>
+                                </div>
+                                <div class="other">
+                                    <p class="timer">Khởi hành hằng ngày</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <div class="service-item">
+
+                        <div class="tour-item">
                             <figure class="thumb">
-                                <a href="#">
-                                    <img src="./assets/image/services/img2.jpg">
+                                <a class="lazy-container" href="#">
+                                    <img class="lazy" src="./assets/image/img__2.jpg" data-src="./assets/image/img__2.jpg">
                                 </a>
+                                <span class="sale">hot</span>
                             </figure>
-                            <div class="service-name">
+                            <div class="content">
                                 <a href="#">
-                                    <h3>Xe Đưa Đón Sân Bay</h3>
+                                    <h3 class="tour-name">Tour 4 Đảo Nha Trang</h3>
                                 </a>
+                                <div class="place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span class="text">Điểm đến: Vịnh San Hô, Làng Chài, đảo Hòn Miễu, đảo Hòn Sỏi</span>
+                                </div>
+                                <div class="price">
+                                    <p class="old-price">
+                                        <del>700,000 VND</del>
+                                    </p>
+                                    <p class="new-price">
+                                        600,000 VND <span>/người lớn</span>
+                                    </p>
+                                </div>
+                                <div class="other">
+                                    <p class="timer">Khởi hành hằng ngày</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-                        <div class="service-item">
+
+                        <div class="tour-item">
                             <figure class="thumb">
-                                <a href="#">
-                                    <img src="./assets/image/services/img3.jpg">
+                                <a class="lazy-container" href="#">
+                                    <img class="lazy" src="./assets/image/img1.jpg">
                                 </a>
+                                <span class="sale">hot</span>
                             </figure>
-                            <div class="service-name">
+                            <div class="content">
                                 <a href="#">
-                                    <h3>Cho Thuê Tàu Du Lịch</h3>
+                                    <h3 class="tour-name">Vinpearl Land</h3>
                                 </a>
+                                <div class="place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span class="text">Điểm đến: VinWonders, Diving Club, Imperial Club, Wave Bar</span>
+                                </div>
+                                <div class="price">
+                                    <p class="old-price">
+                                        <del>900,000 VND</del>
+                                    </p>
+                                    <p class="new-price">
+                                        800,000 VND <span>/người lớn</span>
+                                    </p>
+                                </div>
+                                <div class="other">
+                                    <p class="timer">Khởi hành hằng ngày</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tour-item">
+                            <figure class="thumb">
+                                <a class="lazy-container" href="#">
+                                    <img class="lazy" src="./assets/image/img-4.jpg">
+                                </a>
+                                <span class="sale">hot</span>
+                            </figure>
+                            <div class="content">
+                                <a href="#">
+                                    <h3 class="tour-name">Tour Du Thuyền Sea Coral</h3>
+                                </a>
+                                <div class="place">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span class="text">Điểm đến: Vịnh Nha Trang, Horizon Bar, Sundeck, Islands Club</span>
+                                </div>
+                                <div class="price">
+                                    <p class="old-price">
+                                        <del>1,199,000 VND</del>
+                                    </p>
+                                    <p class="new-price">
+                                        999,000 VND <span>/người lớn</span>
+                                    </p>
+                                </div>
+                                <div class="other">
+                                    <p class="timer">Khởi hành hằng ngày</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
 
         <div class="about-us">
             <div class="container">
@@ -212,8 +293,78 @@
 
         
     </section>
-    
-    //JS Slider
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="logo-footer">
+                        <a href="#">
+                            <img src="./assets/image/logo.png" alt="Đây là logo" width="175" height="58">
+                        </a>
+                    </div>
+                    <p class="copyright">© 2023 NhaTrangNatureElite</p>
+                    <div class="socials">
+                        <a href="#" rel="noopener" class="social" target="_blank" aria-label="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" rel="noopener" class="social" target="_blank" aria-label="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" rel="noopener" class="social" target="_blank" aria-label="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                    <p class="title-col">Chính sách</p>
+                    <ul class="quick-links">
+                        <li>
+                            <a href="#">Điều khoản sử dụng</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a href="#">Đặt cọc Online</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách Hoàn - Hủy Tour</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                    <p class="title-col">Liên hệ chúng tôi</p>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            098.765.4321 - 091.234.5678
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker"></i>
+                            FPT University, Thủ Đức, TP.HCM
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            info@nhatrangnatureelite.com.vn
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page-links">
+                <ul>
+                    <li>
+                        <a href="/gioi-thieu">Về chúng tôi</a>
+                    </li>
+                    <li>
+                        <a href="/huong-dan-thanh-toan">Hướng Dẫn Thanh Toán</a>
+                    </li>
+                    <li>
+                        <a href="/lien-he">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="./js/sliders/jquery.min.js"></script>
     <script src="./js/sliders/owl.carousel.js"></script>
     <script src="./js/sliders/slider.js"></script>
