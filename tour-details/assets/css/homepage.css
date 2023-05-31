@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Markazi+Text:wght@500&family=Oswald:wght@200;300;400;500;600;700&family=Rokkitt:wght@100&display=swap");
 *{
     font-family: "Manrope", sans-serif;
     margin: 0;
@@ -48,7 +49,7 @@ header{
 /* Start: Logo And Search */
 header .logo{
     width: 225px;
-    flex: 15% 0 0;
+    flex: 19% 0 0;
     margin-right: 30px;
 }
 header .logo a{
@@ -135,7 +136,7 @@ header .login-btn a{
     text-transform: uppercase;
 }
 a, button, .btn {
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Manrope', sans-serif !important;
     font-weight: 500; 
 }
 .btn {
@@ -186,7 +187,7 @@ h5 {
 .top-tour .des, .des, .top-rest .des, .new-blog .des, .targets .des {
     font-size: 18px;
     color: #888;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Manrope', sans-serif; 
 }
 .top-tour .title, .top-tour .des, .title, .des, .top-rest .title, .top-rest .des, .new-blog .title, .new-blog .des, .targets .title, .targets .des {
     text-align: center; 
@@ -220,12 +221,12 @@ h5 {
     margin-bottom: 15px; 
 }
 .targets .target p {
-    font-family: 'Roboto Slab', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-size: 16px;
     color: #666;
     line-height: 1.7; 
 }
-.about-us {
+.about {
     text-align: center;
     background-image: url(../../assets/Image/img-1.jpg);
     background-repeat: no-repeat;
@@ -234,7 +235,7 @@ h5 {
     padding: 140px 0;
     position: relative; 
 }
-.about-us:after, .about-us:before {
+.about:after, .about:before {
     content: '';
     position: absolute;
     top: 0;
@@ -245,29 +246,29 @@ h5 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center; }
-.about-us:after {
+.about:after {
     top: auto;
     bottom: 0;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
     transform: rotate(180deg); 
 }
-.about-us .title {
+.about .title {
     font-size: 42px;
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-bottom: 50px; 
 }
-.about-us .title, .about-us p {
+.about .title, .about p {
     color: white; 
 }
-.about-us p {
+.about p {
     text-align: justify;
     padding-left: 15%;
     padding-right: 15%;
     margin-bottom: 50px; 
 }
-.about-us .btn {
+.about .btn {
     margin-right: 10px; 
 }
 
@@ -318,7 +319,7 @@ h5 {
 .slides .slide-text .mouse-icon {
     display: inline-block;
     margin-bottom: 30px;
-    background-image: url(../../images/theme1/mouse-icon.png);
+    /* background-image: url(../../assets/image/mouse-icon.png); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -557,7 +558,7 @@ footer .social i {
 }
 footer .copyright {
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
     font-weight: bold; 
 }
 footer .title-col {
