@@ -1,0 +1,244 @@
+html,
+body {}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper-login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 60px;
+    width: 550px;
+    align-items: center;
+}
+
+.login-header {
+    text-align: center;
+
+}
+
+.login-header-detail h5 {
+    color: #2d4271;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 24px;
+    margin: 0px 0px 8px;
+    text-align: center;
+}
+
+.login-header-detail h1 {
+    color: #2d4271;
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+}
+
+.login-option a{
+  
+}
+.login-button a{
+    color: rgb(0, 45, 143);
+    text-decoration: none;
+    font-weight: bold;
+}
+.login-button {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.register-button{
+    background-color: #0343c5;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+
+.register-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-option {
+    display: flex;
+    justify-content: center;
+    background-color: #0343c5;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 15px;
+
+}
+
+.login-button,
+.register-button {
+    width: 120px;
+    height: 50px;
+    border: none;
+}
+
+/* .login-option a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 64px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 16px;
+    border: 1px groove;
+
+
+}
+
+
+.login-option .login-button {
+
+
+    color: #2d4271;
+    text-align: center;
+    z-index: 1;
+
+    background-color: white;
+}
+
+
+.login-option .register-button {
+
+    color: white;
+    text-align: center;
+    background-color: blue;
+
+
+} */
+
+.login-body {
+    text-align: center;
+    width: 240px;
+    
+}
+
+.login-option {}
+
+.login-form {}
+
+.login-form-header {}
+
+.login-form-user label {
+    color: #2d4271;
+    display: inline-block;
+    font-family: Manrope;
+    font-weight: 700px;
+    line-height: 24px;
+    font-size: 15px;
+    margin: 0px 0px 8px;
+    text-align: left;
+}
+
+.login-form-user input {
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #2d4271;
+    font-family: Manrope;
+    line-height: 28px;
+    padding-right: 64px;
+    border: groove;
+}
+
+.login-form-password label {
+    color: #2d4271;
+    font-size: 15px;
+    display: inline-block;
+    font-family: Manrope;
+    font-weight: 700px;
+    line-height: 28px;
+    margin: 0px 0px 8px;
+    text-align: left;
+}
+
+.login-form-password input {
+    background-color: #ffffff;
+    border-radius: 4px;
+    color: #2d4271;
+    font-family: Manrope;
+    line-height: 24px;
+    padding-right: 64px;
+    border: groove;
+}
+
+.press-login {
+
+    align-items: flex-start;
+    background-color: #fd5056;
+    border-radius: 4px;
+    border: 0.5px none;
+    color: #ffffff;
+    display: inline-block;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 10px;
+    padding: 15px 74px;
+    text-align: center;
+
+}
+
+.form-divider {
+    color: #2d4271;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px 0px;
+    text-align: center;
+}
+
+.add-on a{
+    text-decoration: none;
+}
+
+.add-on {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 24px;
+    font-size: 15px;
+
+}
+
+.btn-facebook {
+    border: 0.5px none #4267b2;
+    background-color: #4267b2;
+    border-radius: 5px;
+    margin: 0 10px;
+    
+    padding: 15px;
+}
+
+.btn-facebook a {
+    color: white;
+}
+
+.fa-brands {}
+
+.fa-facebook {}
+
+.btn-google {
+    border: 0.5px none #df4646;
+    background-color: #df4646;
+    border-radius: 5px;
+    margin: 0 10px;
+   
+    padding: 15px;
+}
+
+.btn-google a {
+    color: white;
+    
+}
+
+.fa-google {}
