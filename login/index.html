@@ -1,60 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập - Nature Elite</title>
+    
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/styleindex.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+    
+    <title>Giới thiệu</title>
 </head>
-
 <body>
-    <div class="wrapper">
-        <div class="wrapper-login">
-            <div class="login-header">
-                <div class="login-header-detail">
-                    <h5>Chào mừng Quý khách đến với</h5>
-                    <h1>Nha Trang Nature Elite</h1>
-                </div>
-            </div>
-            <div class="login-body">
-                <div class="login-option">
-                    <button class="login-button"><a href="#">Đăng nhập</a></button>
-                    <button class="register-button"><a href="#">Đăng kí</a></button>
-                </div>
-                <div class="login-form">
-                    <div class="login-form-header">
-                        <div class="login-form-user">
-                            <label for="username">
-                                Số điện thoại hoặc email <br>
-                                <input id="username" type="text" placeholder="Tài khoản">
-                            </label>
+    <header>
+        <div class="logo">
+            <a href="./homepage.html">
+                <img src="./assets/image/logo.png" alt="Trang chủ NhaTrangNatureElite" width="220" height="62">
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <ul class="main-menu">
+                <li class="menu-item"><a href="./about.html">Giới thiệu</a></li>
+                <li class="menu-item"><a href="#">Tour</a></li>
+                <li class="menu-item"><a href="#">Blogs</a></li>
+                <li class="menu-item"><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+        <div class="action">
+            <button class="login-btn">
+                <a href="#">Đăng nhập</a>
+            </button>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="container">
+            <div class="wrapper">
+                <div class="wrapper-login">
+                    <div class="login-header">
+                        <div class="login-header-detail">
+                            <h5>Chào mừng Quý khách đến với</h5>
+                            <h1>Nha Trang Nature Elite</h1>
                         </div>
-                        <div class="login-form-password">
-                            <label for="password">
-                                Mật khẩu
-                                <br>
-                                <input type="text" id="passowrd" placeholder="Mật khẩu">
-                            </label>
-                        </div>
-                        <button class="press-login">Đăng nhập <i class="fa-solid fa-right-to-bracket"></i></button>
+        
                     </div>
-                    <div class="form-divider">Hoặc</div>
-
+                    <div class="login-body">
+                        
+                        <div class="login-option">
+                            
+                            <button class="login-button"><a href="#" >Đăng nhập</a></button>    
+                            <button class="register-button"><a href="#" >Đăng kí</a></button>    
+                          
+                        </div>
+                        <div class="login-form">
+                            <div class="login-form-header">
+                                <div class="login-form-user">
+                                    <label for="username">
+                                        Số điện thoại hoặc email <br>
+                                        <input id="username" type="text" placeholder="Tài khoản">
+                                    </label>
+                                </div>
+                                <div class="login-form-password">
+                                    <label for="password">
+                                        Mật khẩu
+                                        <br>
+                                        <input type="text" id="passowrd" placeholder="Mật khẩu">
+                                    </label>
+                                </div>
+                                <button class="press-login" type="submit">Đăng nhập</button>
+                            </div>
+                            <div class="form-divider">Hoặc</div>
+                           
+                        </div>
+                        
+                    </div>
+                    <div class="add-on">
+        
+                        <div class="btn-google" readonly="readonly"><a href="#"><i class="fa-brands fa-google"></i> Tiếp
+                                tục với Google</a></div>
+                    </div>
                 </div>
-
-            </div>
-            <div class="add-on">
-                <div class="btn-facebook" readonly="readonly"><a href="#"><i class="fa-brands fa-facebook"></i> Tiếp tục
-                        với Facebook</a></div>
-                <div class="btn-google" readonly="readonly"><a href="#"><i class="fa-brands fa-google"></i> Tiếp
-                        tục với Google</a></div>
+               
             </div>
         </div>
-
-    </div>
-    <script src="https://kit.fontawesome.com/ef011c00e2.js" crossorigin="anonymous"></script>
+        
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                    <div class="logo-footer">
+                        <a href="#">
+                            <img src="./assets/image/logo.png" alt="Đây là logo" width="175" height="58">
+                        </a>
+                    </div>
+                    <p class="copyright">© 2023 NhaTrangNatureElite</p>
+                    <div class="socials">
+                        <a href="#" rel="noopener" class="social" target="_blank" aria-label="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" rel="noopener" class="social" target="_blank" aria-label="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" rel="noopener" class="social" target="_blank" aria-label="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                    <p class="title-col">Chính sách</p>
+                    <ul class="quick-links">
+                        <li>
+                            <a href="#">Điều khoản sử dụng</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a href="#">Đặt cọc Online</a>
+                        </li>
+                        <li>
+                            <a href="#">Chính sách Hoàn - Hủy Tour</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                    <p class="title-col">Liên hệ chúng tôi</p>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            098.765.4321 - 091.234.5678
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker"></i>
+                            FPT University, Thủ Đức, TP.HCM
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            info@nhatrangnatureelite.com.vn
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page-links">
+                <ul>
+                    <li>
+                        <a href="./about.html">Về chúng tôi</a>
+                    </li>
+                    <li>
+                        <a href="#">Hướng Dẫn Thanh Toán</a>
+                    </li>
+                    <li>
+                        <a href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/sliders/jquery.min.js"></script>
+    <script src="./js/sliders/bootstrap.js"></script>
 </body>
-
 </html>
