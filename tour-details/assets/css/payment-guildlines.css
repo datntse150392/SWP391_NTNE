@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&family=Markazi+Text:wght@500&family=Oswald:wght@200;300;400;500;600;700&family=Rokkitt:wght@100&display=swap");
+*{
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+.main {
+    background-color: #f5f5f5; }
+    .main .breadcrumb {
+      display: block;
+      text-align: center;
+      padding-top: 50px; }
+      .main .breadcrumb .breadcrumb-item {
+        display: inline-block; }    
+.breadcrumb {
+  background-color: transparent;
+  padding: 30px 0; }
+  .breadcrumb-item:before {
+    opacity: .4; }
+  .breadcrumb-item a:hover, .breadcrumb-item a:focus {
+    color: #1ec6b6;
+    text-decoration: none; }
+  .breadcrumb-item.active, .breadcrumb-item a, .breadcrumb-item {
+    color: #444;
+    font-size: 14px;
+    line-height: normal; }
+  .breadcrumb-item.active {
+    font-weight: 700; }
+    .breadcrumb-item.active:before {
+      font-weight: 400; }
+.detail-single {
+  padding-bottom: 80px; }
+
+.detail-single-container {
+  background-color: white;
+  padding: 70px;
+  -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); }
+  .detail-single-container .content-element .title-element {
+    margin-left: 0; }
+  .detail-single-container .content-element h2 {
+    font-size: 22px; }
+h1 {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 35px; }
+
+.content-element .title-element {
+  margin-left: -25px;
+  margin-top: 35px;
+  font-family: 'Manrope', sans-serif !important; }
+  .content-element .title-element * {
+    font-family: 'Manrope', sans-serif !important; }
+.content-element h2{
+  font-family: 'Manrope', sans-serif; 
+  font-size: 20px;
+  text-align: justify;
+  margin: 15px;
+}
+.content-element p, .content-element a, .content-element li {
+    font-family: 'Manrope', sans-serif; 
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+}
+  .list-bank {
+  padding: 20px 15px;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+  -ms-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  .list-bank .bank {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 15px;
+    margin-top: 10px; }
+    .list-bank .bank:first-child {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0; }
+    .list-bank .bank:after {
+      content: '';
+      clear: both;
+      display: table; }
+  .list-bank .bank-logo,
+  .list-bank .bank-info {
+    float: left; }
+    .list-bank .bank-logo img,
+    .list-bank .bank-info img {
+      margin-bottom: 0; }
+  .list-bank .bank-info {
+    margin-left: 15px; }
+  .list-bank p {
+    margin-bottom: 6px; }
+.contact-company {
+  list-style: none;
+  padding-left: 0; }
+  .contact-company li {
+    margin-bottom: 12px !important; }
+    .contact-company li i {
+      margin-right: 20px;
+      color: #1ec6b6; }
+
+  
