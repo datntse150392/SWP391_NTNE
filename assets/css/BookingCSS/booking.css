@@ -78,6 +78,11 @@
   margin-bottom: 20px;
 }
 
+.pink-color:hover {
+  color: #1ec6b6;
+  text-decoration: none;
+}
+
 .checkout .form-group {
   margin-bottom: 25px;
 }
@@ -162,6 +167,12 @@
 .btn-pink {
   background-color: #e12d36;
   color: white;
+}
+
+.btn-pink:hover {
+  background-color: #db000b;
+  color: white;
+  text-decoration: none;
 }
 
 .btn {
@@ -297,6 +308,11 @@ select {
 
 .textarea.form-control {
   height: 100%;
+}
+
+.paymentMethod:hover {
+  color: #1ec6b6;
+  text-decoration: none;
 }
 
 .textarea {
