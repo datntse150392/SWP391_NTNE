@@ -12,7 +12,7 @@ html {
 h1 {
 }
 
-.title {
+.header-title {
   font-size: 35px;
   margin-bottom: 0;
 }
@@ -417,6 +417,64 @@ h5 {
   font-weight: 700;
 }
 
-/* Footer */
+/* Start Box Booking */
+.booking-tour {
+  height: 100%;
+  border: 1px solid #ececec;
+  border-radius: 10px;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
 
-/* Footer */
+.container h1 {
+  font-size: 20px;
+}
+
+.tourpackage-body {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ececec;
+  padding: 22px;
+  margin-top: 20px;
+  width: 50%;
+}
+.title {
+  font-size: 20px;
+  color: red;
+}
+.tourpackage-body-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tourpackage-body-detail h3,
+span {
+  font-size: 19px;
+  margin-right: 5px;
+  text-transform: capitalize;
+}
+
+.tourpackage-body-detail .booking-tour .container b {
+  font-size: 20px;
+  color: #e12d36;
+  font-weight: 700;
+}
+.btn-booking-tour {
+  width: 100px;
+  height: 35px;
+  background: #fff;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tourpackage-body.active {
+  border: 1px solid red;
+}
+
+/* Start Box Booking */
