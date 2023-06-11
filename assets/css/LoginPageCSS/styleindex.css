@@ -411,8 +411,10 @@ body {}
     color: #2d4271;
     font-family: Manrope;
     line-height: 24px;
-    padding-right: 190px;
-    border: groove;
+    padding-right: 180px;
+    padding-left: 15px;
+    border: #6c757d solid 1px;
+    border-width: thin;
     height: 28px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -439,9 +441,11 @@ body {}
     color: #2d4271;
     font-family: Manrope;
     line-height: 24px;
-    padding-right: 190px;
-    border: groove;
+    padding-right: 180px;
+    border: #6c757d solid 1px;
+    border-width: thin;
     height: 28px;
+    padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 15px;
@@ -458,7 +462,7 @@ body {}
     font-family: Manrope;
     line-height: 24px;
     margin-top: 10px;
-    padding: 15px 140px;
+    padding: 15px 143px;
     text-align: center;
     font-weight: 700;
 }
