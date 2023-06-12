@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300&display=swap');
 *{
+    font-family: 'Be Vietnam Pro', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -221,7 +223,7 @@
     padding: 10px 15px;
     color: black;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .header__nav-item a:hover{
@@ -384,4 +386,4 @@
     font-size: 24px;
     font-weight: 400;
     color: #fff;
-}
+}   

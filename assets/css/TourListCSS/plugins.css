@@ -1,6 +1,7 @@
 /*---------- Bootstrap Css ----------------*/
-html {
-  font-family: sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300&display=swap');html {
+  font-family: 'Be Vietnam Pro', sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
@@ -100,7 +101,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 1em;
 }
 button,
@@ -153,7 +154,7 @@ input[type="search"] {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
@@ -270,7 +271,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -280,14 +281,14 @@ button,
 input,
 select,
 textarea {
-  font-family: inherit;
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-size: inherit;
   line-height: inherit;
 }
 a {
   color: black;
   text-decoration: none;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
 }
 a:focus,
 a:hover {
@@ -372,7 +373,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: inherit;
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -434,7 +435,7 @@ h3 small {
 h4,
 h5,
 h6 {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -1099,7 +1100,7 @@ th {
 
 
 .form-control {
-  font-family: 'Montserrat';
+  font-family: 'Be Vietnam Pro', sans-serif;
   display: block;
   width: 100%;
   height: 34px;
@@ -3256,7 +3257,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: transparent;
   border-radius: 4px;
 }
 .breadcrumb > li {
@@ -3268,7 +3269,7 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
   content: "/\00a0";
 }
 .breadcrumb > .active {
-  color: #777;
+  color: #444;
 }
 .pagination {
   display: inline-block;
@@ -4794,7 +4795,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -4912,7 +4913,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -5215,7 +5216,7 @@ button.close {
 .carousel-control .icon-prev {
   width: 20px;
   height: 20px;
-  font-family: serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   line-height: 1;
 }
 .carousel-control .icon-prev:before {
@@ -5242,7 +5243,7 @@ button.close {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000\9;
+  background-color: #0009;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #fff;
   border-radius: 10px;
@@ -6788,7 +6789,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     padding: 24px 12px;
   }
   nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after {
-    font-family: FontAwesome;
+    font-family: 'Be Vietnam Pro', sans-serif;
     content: "\f107";
     margin-left: 5px;
     margin-top: 2px;
@@ -6827,7 +6828,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     ul.dropdown-menu
     li.dropdown
     > a.dropdown-toggle:before {
-    font-family: FontAwesome;
+    font-family: 'Be Vietnam Pro', sans-serif;
     float: right;
     content: "\f105";
     margin-top: 0;
@@ -6838,7 +6839,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     ul.dropdown-menu
     li.dropdown
     > a.dropdown-toggle:before {
-    font-family: FontAwesome;
+    font-family: 'Be Vietnam Pro', sans-serif;
     float: left;
     content: "\f104";
     margin-top: 0;
@@ -7137,7 +7138,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     ul.dropdown-menu
     li.dropdown
     > a:before {
-    font-family: FontAwesome;
+      font-family: 'Be Vietnam Pro', sans-serif;
     content: "\f105";
     float: right;
   }
@@ -7174,7 +7175,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     .megamenu-content
     .col-menu
     .title:before {
-    font-family: FontAwesome;
+      font-family: 'Be Vietnam Pro', sans-serif;
     content: "\f105";
     float: right;
   }
@@ -7241,7 +7242,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     float: none;
   }
   nav.navbar.bootsnav li.dropdown a.dropdown-toggle:before {
-    font-family: FontAwesome;
+    font-family: 'Be Vietnam Pro', sans-serif;
     content: "\f105";
     float: right;
     font-size: 16px;
@@ -7342,7 +7343,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked {
     padding: 8px 0;
   }
   nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title:before {
-    font-family: FontAwesome;
+    font-family: 'Be Vietnam Pro', sans-serif;
     content: "\f105";
     float: right;
     font-size: 16px;
@@ -7673,7 +7674,7 @@ div.datedropper {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   line-height: 1;
-  font-family: sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -8573,7 +8574,7 @@ div.datedropper .null {
 }
 
 /*---------- FancyBox Css ----------------*/
-@charset "UTF-8";
+@charsett "UTF-8";
 body.fancybox-active {
   overflow: hidden;
 }
@@ -8600,8 +8601,7 @@ body.fancybox-iosfix {
   backface-visibility: hidden;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
 }
 .fancybox-bg,
 .fancybox-inner,
@@ -9996,7 +9996,7 @@ li.fancybox-thumbs-loading {
 }
 
 /*------------ Animate Css -------------------*/
-@charset "UTF-8";
+@charrset "UTF-8";
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

@@ -1,9 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700);
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,600,600i,700,700i);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:300,400,600,700); */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300&display=swap');
+*{
+  font-family: 'Be Vietnam Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body,
 p {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   position: relative;
 }
 
@@ -115,6 +123,29 @@ ul {
   padding: 0;
 }
 
+.breadcrumb {
+  background-color: transparent;
+  padding: 30px 0; 
+}
+.breadcrumb-item:before {
+  opacity: .4; 
+}
+.breadcrumb-item a:hover, .breadcrumb-item a:focus {
+  color: tomato;
+  text-decoration: none; 
+}
+.breadcrumb-item.active, .breadcrumb-item a, .breadcrumb-item {
+  color: #444;
+  font-size: 14px;
+  line-height: normal; 
+}
+.breadcrumb-item.active {
+  font-weight: 700; 
+}
+.breadcrumb-item.active:before {
+  font-weight: 400; 
+}
+
 .page-title {
   background: center #f2f4f7;
   height: 370px;
@@ -131,7 +162,6 @@ ul {
   right: 0;
   top: 0;
   bottom: 0;
-  background: #243b5a;
   opacity: 0.6;
 }
 
@@ -465,7 +495,7 @@ html body .mrg-0 {
 
 .tr-list-detail p {
   font-size: 18px;
-  font-family: "Josefin Slab", serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .tr-list-thumb {
@@ -657,7 +687,7 @@ span.vcard.author a {
 
 .meta-item.meta-views:before {
   content: "\f005";
-  font-family: FontAwesome;
+  font-family: 'Be Vietnam Pro', sans-serif;
   margin-right: 5px;
 }
 
@@ -668,7 +698,7 @@ span.vcard.author a {
 }
 
 .tour-box.list-style {
-  font-family: "Montserrat";
+  font-family: 'Be Vietnam Pro', sans-serif;
   height: 280px;
   position: relative;
   margin-bottom: 30px;
@@ -778,14 +808,14 @@ span.user-status {
 }
 
 .tr-single-header {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Be Vietnam Pro', sans-serif;
   width: 100%;
   border-bottom: 1px solid #f3f4f7;
   padding: 12px 25px;
 }
 
 .tr-single-header h4 {
+  font-weight: 600;
   margin: 0;
   font-size: 15px;
 }
@@ -821,7 +851,7 @@ ul.amenities li {
 ul.amenities li:before {
   position: absolute;
   content: "\f058";
-  font-family: FontAwesome;
+  font-family: 'Be Vietnam Pro', sans-serif;
   left: 0;
   color: #00cd09;
   font-size: 18px;
@@ -852,7 +882,7 @@ ul.amenities.fourth li {
 }
 
 .side-list-check li {
-  font-family: "Montserrat";
+  font-family: 'Be Vietnam Pro', sans-serif;
   list-style: none;
   margin-bottom: 10px;
 }
