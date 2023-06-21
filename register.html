@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/LoginPageCSS/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/LoginPageCSS/styleindex.css">
+    <link rel="stylesheet" href="assets/css/LoginPageCSS/register.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 
 
-    <title>Giới thiệu</title>
+    <title>Đăng Kí</title>
 </head>
 
 <body>
@@ -56,37 +56,74 @@
                             <button class="register-button"><a href="#">Đăng kí</a></button>
 
                         </div>
-                        <div class="login-form">
-                            <div class="login-form-header">
-                                <div class="login-form-user">
-                                    <label for="username">
-                                        Số điện thoại hoặc email <br>
-                                        <input id="username" type="text" placeholder="Tài khoản">
-                                    </label>
+                        <form>
+                            <div class="login-form">
+                                <div class="login-form-header">
+
+                                    <div class="login-form-user fill-form">
+                                        <label for="username">
+                                            Họ và tên<span style="color: red; font-size:small;">(*)</span>
+                                            <br>
+                                            <input id="username" type="text" required name="username">
+                                        </label>
+                                    </div>
+                                    <div class="login-form-password fill-form">
+                                        <label for="email">
+                                            Email<span style="color: red; font-size:small;">(*)</span>
+                                            <br>
+                                            <input type="text" id="email" required name="email">
+                                        </label>
+                                    </div>
+
+                                    <div class="login-form-password fill-form">
+                                        <label for="password">
+                                            Mật khẩu<span style="color: red; font-size:small;">(*)</span>
+                                            <br>
+                                            <div class="icon-container">
+                                                <a href="#">
+                                                    <i class="fa-solid fa-eye"></i>
+                                                </a>
+
+                                                <input type="password" id="passowrd" required name="repassword"
+                                                    class="changetype">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="login-form-password fill-form">
+                                        <label for="repassword">
+                                            Nhập lại mật khẩu<span style="color: red; font-size:small;">(*)</span>
+                                            <br>
+                                            <div class="icon-container">
+                                                <a href="#">
+                                                    <i class="fa-solid fa-eye"></i>
+                                                </a>
+
+                                                <input type="password" id="repassowrd" required name="repassword"
+                                                    class="changetype">
+                                            </div>
+                                        </label>
+                                    </div>
+                                    <div class="login-form-password fill-form">
+                                        <label for="address">
+                                            Địa chỉ
+                                            <br>
+                                            <input type="text" id="address" name="address">
+                                        </label>
+                                    </div>
+                                    <div class="login-form-password fill-form">
+                                        <label for="phone">
+                                            Số điện thoại<span style="color: red; font-size: small;">(*)</span>
+                                            <br>
+                                            <input type="text" id="phone" required name="phone">
+                                        </label>
+                                    </div>
+                                    <button class="press-login" type="submit">Đăng kí</button>
                                 </div>
-                                <div class="login-form-password">
-                                    <label for="password">
-                                        Mật khẩu
-                                        <br>
-                                        <input type="text" id="passowrd" placeholder="Mật khẩu">
-                                    </label>
-                                </div>
-                                <button class="press-login" type="submit">Đăng nhập</button>
+
                             </div>
-                            <div class="form-divider">Hoặc</div>
-
-                        </div>
-
-                    </div>
-                    <div class="add-on">
-
-                        <div class="btn-google" readonly="readonly"><a href="#"><i class="fa-brands fa-google"></i> Tiếp
-                                tục với Google</a></div>
+                        </form>
                     </div>
                 </div>
-
-            </div>
-        </div>
 
     </section>
 
@@ -163,6 +200,7 @@
             </div>
         </div>
     </footer>
+    <script src="./assets/css/LoginPageCSS/js/register.js"></script>
     <script src="./js/sliders/jquery.min.js"></script>
     <script src="./js/sliders/bootstrap.js"></script>
     <script src="https://kit.fontawesome.com/ef011c00e2.js" crossorigin="anonymous"></script>
