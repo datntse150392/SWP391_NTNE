@@ -36,7 +36,8 @@ body {
 
 .info-image img {
     border-radius: 50%;
-
+    width: 96px;
+    height: 96px;
 }
 
 .info_details {
@@ -189,7 +190,7 @@ li {
 
 }
 
-.search-form{
+.search-form {
     position: relative;
 }
 

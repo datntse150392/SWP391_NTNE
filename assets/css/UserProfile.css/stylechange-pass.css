@@ -36,7 +36,8 @@ body {
 
 .info-image img {
     border-radius: 50%;
-
+    width: 96px;
+    height: 96px;
 }
 
 .info_details {
@@ -184,8 +185,8 @@ li {
     justify-content: start;
     margin: 0px 12px;
     padding: 16px 8px;
-    
-   
+
+
 }
 
 .section-item div:first-child {
